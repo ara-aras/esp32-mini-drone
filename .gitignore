@@ -16,6 +16,7 @@ README_DRONE.md
 # Presentation workspace: only the workshop deck is published
 PPT/*
 !PPT/Drone_Workshop_v2.pptx
+!PPT/Drone_Workshop_3D.html
 
 # Deck-building scripts (not needed to build or fly the drone)
 tools/*

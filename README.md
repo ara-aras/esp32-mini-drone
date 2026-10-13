@@ -34,6 +34,7 @@ tests/                 PC unit tests + closed-loop PID simulation (`make`)
 tools/check_all.sh     unit tests + compile both sketches with arduino-cli
 CLAUDE.md              context for Claude Code
 PPT/Drone_Workshop_v2.pptx  IEEE workshop slides (speaker notes included)
+PPT/Drone_Workshop_3D.html  same talk as an offline 3D web deck (open in Chrome; N = notes)
 ```
 No external libraries needed.
 
