@@ -1,0 +1,25 @@
+# Local secrets (AP password etc.)
+Drone/src/secrets.h
+
+# Build outputs
+tests/run_tests
+tests/run_tests.exe
+*.o
+build/
+
+# Agent / editor tooling
+.agents/
+.claude/
+.vscode/
+README_DRONE.md
+
+# Presentation workspace: only the workshop deck is published
+PPT/*
+!PPT/Drone_Workshop_v2.pptx
+
+# Deck-building scripts (not needed to build or fly the drone)
+tools/*
+!tools/check_all.sh
+!tools/check_all.bat
+!tools/gyro3d.py
+!tools/monitor.ps1
